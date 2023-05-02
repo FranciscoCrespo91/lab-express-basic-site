@@ -1,0 +1,46 @@
+html {
+  font-family: comic sans ms, cursive;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgb(243, 185, 60);
+  background-image: url("/img/background.jpg");
+  background-repeat: round;
+}
+
+#section1 {
+  text-align: center;
+  font-size: 50px;
+  background-color: rgb(243, 185, 60);
+  border-style: dotted;
+  width: 800px;
+  border-radius: 10%;
+  box-shadow: 20px 20px 50px black;
+}
+
+.About {
+  background-color: rgb(243, 185, 60);
+  color: black;
+  height: 40px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.Works {
+  background-color: rgb(243, 185, 60);
+  color: black;
+  height: 40px;
+  margin-bottom: 1%;
+}
+
+#section2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: smaller;
+  font-weight: lighter;
+}
